@@ -1,4 +1,4 @@
-## Olá! 👋
+## Olá eu sou o Luigi Fernando! 👋
 
 Bem-vindo(a) ao meu perfil. Aqui você encontra um resumo das linguagens e frameworks com que eu trabalho, exemplos mínimos de código e um gráfico que mostra meus commits ao longo do tempo.
 
@@ -14,9 +14,10 @@ Bem-vindo(a) ao meu perfil. Aqui você encontra um resumo das linguagens e frame
 
 ## Sobre mim
 
-- Nome: Luigifao (substitua pelo seu nome/username se desejar)
-- Área: Desenvolvimento de software — front-end, back-end e automação
+- Nome: Luigi Fernando Alves 
+- Área: Desenvolvimento de software — full-Stack (Front-end, back-end e DevOps)
 - Foco: código limpo, boas práticas e aprendizado contínuo
+- Cursando: Estudante de Ciência da Computação na Dom Helder Camara BH-MG
 
 ## Tecnologias e frameworks
 
@@ -30,92 +31,11 @@ Abaixo estão exemplos das linguagens e frameworks que uso frequentemente. Se qu
 - 🌐 HTML / CSS / SASS
 - 🗄️ SQL / NoSQL
 - 🔧 Git, CI/CD
----
-
 - 🦋 Flutter (Dart) — mobile, web e desktop
 
 ---
 
-## Trechos de código (exemplos rápidos)
 
-JavaScript (Node.js) — servidor mínimo:
-
-```javascript
-// server.js
-const http = require('http');
-
-const server = http.createServer((req, res) => {
-	res.writeHead(200, { 'Content-Type': 'text/plain' });
-	res.end('Olá, mundo!');
-});
-
-server.listen(3000, () => console.log('Servidor na porta 3000'));
-```
-
-TypeScript (React) — componente funcional:
-
-```tsx
-// Hello.tsx
-import React from 'react';
-
-type Props = { name: string };
-
-export default function Hello({ name }: Props) {
-	return <h1>Olá, {name}!</h1>;
-}
-```
-
-Python (FastAPI) — rota simples:
-
-```python
-# app.py
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get('/')
-def read_root():
-		return {'message': 'Olá, mundo!'}
-```
-
-HTML/CSS — layout mínimo:
-
-```html
-<!-- index.html -->
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Exemplo</title>
-		<style>body{font-family:Inter,system-ui,Arial;padding:2rem}</style>
-	</head>
-	<body>
-		<h1>Olá, mundo!</h1>
-	</body>
-</html>
-```
-
-Flutter (Dart) — app mínimo:
-
-```dart
-// lib/main.dart
-import 'package:flutter/material.dart';
-
-void main() => runApp(const MyApp());
-
-class MyApp extends StatelessWidget {
-	const MyApp({super.key});
-
-	@override
-	Widget build(BuildContext context) {
-		return MaterialApp(
-			title: 'Exemplo Flutter',
-			home: const Scaffold(
-				body: Center(child: Text('Olá, Flutter!')),
-			),
-		);
-	}
-}
-```
 
 
 
@@ -132,21 +52,6 @@ Alternativas:
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Luigifao&show_icons=true&theme=radical)
 
 ---
-
-## Como personalizar
-
-1. Para mudar o username do gráfico e dos badges, substitua `Luigifao` nas URLs acima pelo seu username GitHub.
-2. Para ajustar as linguagens/frameworks listadas, edite a seção "Tecnologias e frameworks".
-3. Se quiser um gráfico local (SVG gerado por você), posso adicionar um script ou instruções para gerar um SVG a partir dos commits do git usando ferramentas locais.
-
-Exemplo rápido de alteração de username (no Markdown):
-
-```md
-![Graphs](https://activity-graph.herokuapp.com/graph?username=SEU_USERNAME&theme=react-dark&area=true)
-```
-
----
-
 ## Contato
 
 - GitHub: https://github.com/Luigifao 
